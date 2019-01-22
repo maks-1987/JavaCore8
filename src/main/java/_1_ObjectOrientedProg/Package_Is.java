@@ -1,4 +1,4 @@
-package ObjectOrientedProg;
+package _1_ObjectOrientedProg;
 
 /**
  * Пакет - это пространство имен, которое организует набор

@@ -1,4 +1,4 @@
-package ObjectOrientedProg;
+package _1_ObjectOrientedProg;
 
 /**
  * Объекты являются ключом к пониманию объектно-ориентированных

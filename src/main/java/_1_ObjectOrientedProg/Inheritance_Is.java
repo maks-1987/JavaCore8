@@ -1,4 +1,4 @@
-package ObjectOrientedProg;
+package _1_ObjectOrientedProg;
 
 /**
  * Различные виды объектов часто имеют определенное количество

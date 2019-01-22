@@ -1,4 +1,4 @@
-package ObjectOrientedProg;
+package _1_ObjectOrientedProg;
 
 /**
  * В реальном мире вы часто найдете множество отдельных объектов

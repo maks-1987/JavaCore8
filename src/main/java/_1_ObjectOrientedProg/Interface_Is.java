@@ -1,4 +1,4 @@
-package ObjectOrientedProg;
+package _1_ObjectOrientedProg;
 
 /**
  * Oбъекты определяют свое взаимодействие с внешним миром с
