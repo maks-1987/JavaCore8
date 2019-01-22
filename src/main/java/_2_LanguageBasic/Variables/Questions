@@ -1,0 +1,27 @@
+Questions:
+
+- The term "instance variable" is another name for ___.
+- The term "class variable" is another name for ___.
+- A local variable stores temporary state; it is declared
+    inside a ___.
+- A variable declared within the opening and closing parenthesis
+    of a method signature is called a ____.
+- What are the eight primitive data types supported by the
+    Java programming language?
+- Character strings are represented by the class ___.
+- An ___ is a container object that holds a fixed number of
+    values of a single type.
+
+-----------------------------------------------------------------
+
+- Термин «переменная экземпляра» является другим именем для ___.
+- Термин «переменная класса» является другим именем для ___.
+- Локальная переменная хранит временное состояние; объявлено
+     внутри ___.
+- Переменная, объявленная в открывающей и закрывающей скобках
+     подписи метода называется ____.
+- Какие восемь примитивных типов данных поддерживаются языком
+    программирования Java?
+- Строки символов представлены классом ___.
+- ___ - это контейнерный объект, который содержит фиксированное число
+     значения одного типа.
