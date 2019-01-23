@@ -1,0 +1,172 @@
+Questions:
+
+    Consider the following code snippet.
+
+    arrayOfInts[j] > arrayOfInts[j+1]
+
+    Which operators does the code contain?
+    Consider the following code snippet.
+
+    int i = 10;
+    int n = i++%5;
+
+        What are the values of i and n after the code is executed?
+        What are the final values of i and n if instead of using the postfix increment operator (i++), you use the prefix version (++i))?
+    To invert the value of a boolean, which operator would you use?
+    Which operator is used to compare two values, = or == ?
+    Explain the following code sample: result = someCondition ? value1 : value2;
+
+Exercises:
+
+    Change the following program to use compound assignments:
+
+    class ArithmeticDemo {
+
+         public static void main (String[] args){
+
+              int result = 1 + 2; // result is now 3
+              System.out.println(result);
+
+              result = result - 1; // result is now 2
+              System.out.println(result);
+
+              result = result * 2; // result is now 4
+              System.out.println(result);
+
+              result = result / 2; // result is now 2
+              System.out.println(result);
+
+              result = result + 8; // result is now 10
+              result = result % 7; // result is now 3
+              System.out.println(result);
+         }
+    }
+
+    In the following program, explain why the value "6" is printed twice in a row:
+
+    class PrePostDemo {
+        public static void main(String[] args){
+            int i = 3;
+            i++;
+            System.out.println(i);    // "4"
+            ++i;
+            System.out.println(i);    // "5"
+            System.out.println(++i);  // "6"
+            System.out.println(i++);  // "6"
+            System.out.println(i);    // "7"
+        }
+    }
+-------------------------------------------------------------------------------
+Answers to Questions
+
+    Consider the following code snippet:
+
+    arrayOfInts[j] > arrayOfInts[j+1]
+
+    Question: What operators does the code contain?
+    Answer: >, +
+
+    Consider the following code snippet:
+
+    int i = 10;
+    int n = i++%5;
+
+        Question: What are the values of i and n after the code is executed?
+        Answer: i is 11, and n is 0.
+
+        Question: What are the final values of i and n if instead of using the postfix increment operator (i++), you use the prefix version (++i))?
+        Answer: i is 11, and n is 1.
+
+    Question: To invert the value of a boolean, which operator would you use?
+    Answer: The logical complement operator "!".
+    Question: Which operator is used to compare two values, = or == ?
+    Answer: The == operator is used for comparison, and = is used for assignment.
+    Question: Explain the following code sample: result = someCondition ? value1 : value2;
+    Answer: This code should be read as: "If someCondition is true, assign the value of value1 to result. Otherwise, assign the value of value2 to result."
+
+Exercises
+
+    Change the following program to use compound assignments:
+
+    class ArithmeticDemo {
+
+        public static void main (String[] args){
+
+            int result = 1 + 2; // result is now 3
+            System.out.println(result);
+
+            result = result - 1; // result is now 2
+            System.out.println(result);
+
+            result = result * 2; // result is now 4
+            System.out.println(result);
+
+            result = result / 2; // result is now 2
+            System.out.println(result);
+
+            result = result + 8; // result is now 10
+            result = result % 7; // result is now 3
+            System.out.println(result);
+
+        }
+    }
+
+    Here is one solution:
+
+    class ArithmeticDemo {
+
+        public static void main (String[] args){
+            int result = 3;
+            System.out.println(result);
+
+            result -= 1; // result is now 2
+            System.out.println(result);
+
+            result *= 2; // result is now 4
+            System.out.println(result);
+
+            result /= 2; // result is now 2
+            System.out.println(result);
+
+            result += 8; // result is now 10
+            result %= 7; // result is now 3
+            System.out.println(result);
+
+        }
+    }
+
+    In the following program, explain why the value "6" is printed twice in a row:
+
+    class PrePostDemo {
+        public static void main(String[] args){
+            int i = 3;
+            i++;
+            System.out.println(i);    // "4"
+            ++i;
+            System.out.println(i);    // "5"
+            System.out.println(++i);  // "6"
+            System.out.println(i++);  // "6"
+            System.out.println(i);    // "7"
+        }
+    }
+
+    The code System.out.println(++i); evaluates to 6, because the prefix version of ++ evaluates to the incremented value.
+    The next line, System.out.println(i++); evaluates to the current value (6), then increments by one.
+    So "7" doesn't get printed until the next line.
+
+-----------------------------------------------------------------
+Рассмотрим следующий фрагмент кода.
+
+     arrayOfInts[j] > arrayOfInts [j + 1]
+
+     Какие операторы содержатся в коде?
+     Рассмотрим следующий фрагмент кода.
+
+     int i = 10;
+     int n = i ++% 5;
+
+         Каковы значения i и n после выполнения кода?
+         Каковы конечные значения i и n, если вместо использования оператора приращения постфикса (i ++) вы используете префиксную версию (++ i))?
+     Чтобы инвертировать значение логического типа, какой оператор вы бы использовали?
+     Какой оператор используется для сравнения двух значений: = или ==?
+     Объясните следующий пример кода: result = someCondition? значение1: значение2;
