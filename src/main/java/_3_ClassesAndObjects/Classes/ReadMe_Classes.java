@@ -1,4 +1,4 @@
-package _3_ClassesAndObjects.Classes;
+package _3_ClassesAndObjects.Classes.Classes;
 
 /**
  * Вот пример кода для возможной реализации класса Bicycle,
