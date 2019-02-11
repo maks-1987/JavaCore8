@@ -13,7 +13,7 @@ package _3_ClassesAndObjects.Objects;
  * которая создает три объекта: один объект Point и два объекта
  * Rectangle.
  */
-/*public class CreateObjectDemo {
+class CreateObjectDemo {
 
     public static void main(String[] args) {
 
@@ -39,13 +39,13 @@ package _3_ClassesAndObjects.Objects;
         System.out.println("X Position of rectTwo: " + rectTwo.origin.x);
         System.out.println("Y Position of rectTwo: " + rectTwo.origin.y);
     }
-} >>>   Width of rectOne: 100
+}/*>>>  Width of rectOne: 100
         Height of rectOne: 200
         Area of rectOne: 20000
         X Position of rectTwo: 23
         Y Position of rectTwo: 94
         X Position of rectTwo: 40
-        Y Position of rectTwo: 72    */
+        Y Position of rectTwo: 72   */
 
 public class ReadMe_Obj {
 }
